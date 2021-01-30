@@ -1,0 +1,5 @@
+class ChangeDataTypeForComplete < ActiveRecord::Migration[6.1]
+  def change
+    change_column :tasks, :complete, :string
+  end
+end
